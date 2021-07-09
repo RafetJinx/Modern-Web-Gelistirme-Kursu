@@ -1,0 +1,33 @@
+45. Video - CSS3 Nedir?
+	-Faydalı siteler
+		https://www.w3schools.com/cssref/default.asp
+		https://codepen.io/
+		https://css-tricks.com/
+46. Video - Kullanma Yöntemleri
+	-link -> vererek başka dosyaya attığımız css özelliklerini bulunduğumuz sayfaya dahil edebiliriz.
+		link içerisinde yer alır. "rel"
+	-rel -> link olarak alacağımız şeyin ne olduğunu belirtir ve "stylesheet" yazarız.
+48. Video - CSS Çalışma Hiyerarşisi, User Agent StyleSheet ve Important
+	- Çalışma hiyerarşisi yukarıdan aşağıya doğrudur. x için yukarda yazılan stil özellikleri
+		altta yazılan stil özellikleri tarafından ezilir ve x'in stil özellikleri alttakiler olur.
+		Bu durumu engellemek için "important" etiketi kullanılabilir.
+	- !important -> "important" etiketi ezilmeyi önlemek için kullanılır. Bu etiketi kullandıktan sonra
+		herhangi bir durumda başka stil özellikleri gözlenmez
+51. Video - CSS Arkaplan ve Arkaplan Resimleri
+	- etiketAdı.x yazılırsa etiketin için x isimli class atanarak etiket oluşturulur.
+	- etiketAdı#x yazılırsa etiketin içine x isimli id atanarak etiket oluşturulur.
+	- görselleri background-size: cover; kullanarak orantılı küçültebiliriz.
+	- background-repeat: no-repeat; tekrar etmesini engeller.
+				repeat-x; x ekseninde tekrar etmesini sağlar.
+				repeat-y; y ekseninde tekrar etmesini sağlar.
+	- background-position: right/left/center top/bottom/center
+	- background-attachment: fixed; belirtilen ifadenin ekranda sürekli kalmasını sağlar.
+		scroll lock ile aşağı yukarı inilmesi durumunda ekrandan çıkmaz ve sürekli ekranda kalır.
+	- background'un tek satırda yazımı:
+		background: color image position size repeat origin clip attachment
+52. Video - CSS - Border ve Radius Özellikleri
+	- border-radius: kenarların yumşak olmasını sağlar
+	- border-left-with/color/style ile yapabileceklerimiz:
+		width -> sol sınırın genişliğini değiştirme
+		color -> sol sınırın rengini değiştirme
+		style -> sol sınırın stilini değiştirme
