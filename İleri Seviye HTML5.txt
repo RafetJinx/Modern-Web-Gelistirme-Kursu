@@ -1,0 +1,60 @@
+39. Video - Block ve Inline Elementler
+	- sadece block elementlere height&width özellerikleri verilebilir. 
+		Inline elementlere bu özellikler verilemez
+40. Video - Div ve Span Etiketleri
+	- Div block element, Span inline element leri gruplamak için kullanılır
+	- Divleri navigation var, footer gibi yerlerde kullanacağız örneğin
+41. Video - Id ve Class Nedir
+	- Id 1 defa tanımlanır ve başka bir yerde tekrardan kullanılamaztanımlanmaz
+	- Class da id gibi 1 defa tanımlanmasına rağmen class gibi tekrardan kullanılamama
+		gibi bir duruma sahip değildir ve birçok kez kullanılabilir
+		CSS ile class'a stil eklendiği zaman bütün class'lar etkilenir
+43. Video - HTML  Form ve Input Elementleri
+	- form içerisinde yer alan action: form içerisinde belirtilen değerleri alıp belirtilen 
+		adrese gönderen etiket
+	- formların method türünü "method" etiketi ile belirleyebiliriz. get/post ifadeleri ile
+	- type input türümüzün ne olduğunu belirtiyoruz
+	- text -> input türümüzün text formatında olacağını belirtiriz.
+		Örneğin: firstName,lastName gibi veriler için
+	- label -> kelime ile input türü arasındaki bağı kurmak için kullanılır. 
+		(Örneğin yazıya tıkladığımız zaman inputumuza odaklanmasını sağlar)
+	- for -> label içerisinde bulunan for içerisine input'umuzun id'sini yazmamız gerekli
+	- name -> input türümüzün içeriğine ekleriz. Aldığımız verinin action etiketindeki yere 
+		o verinin hangi isimle gönderildiğini belirtmiş oluruz.
+	-email -> input türümüzün email formatında olacağını belirtiriz.
+	-date -> input türümüzün date formatında olacağını belirtiriz.
+	-radio -> input türümüzün radio buton formatında olacağını belirtiriz.
+		Radio buttonlara aynı "name" verildiği durumda aynı anda birden fazlası seçilemez
+	-checkbox -> input türümüzün checkbox formatında olacağını belirtiriz. Checkbox'larda
+		aynı "name" verildiği durumda birden fazla seçenek seçilebilir.
+	-checked -> etiketi etiketi kullanılırsa sayfa açıldığı zaman otomatik olarak o seçenek 
+		seçili olarak gelir
+	-select -> seçim yapılacak alanı ifade eder select içerisindeki seçenekleri "option" etiketi
+		ile tanımlarız
+	-option -> Select'in içerisinde yer alan seçenekleri yazdığımız alandır.
+	-textarea -> Kullanıcıdan alınacak bir text ifadesinin alınacağı alana denir.
+		Genellikle form gönderme işlemlerinde kullanıcının görüşlerini ifade etmesini sağlayan alandır.
+	-cols (columns) -> textarea etiketi içerisinde kullanılır. Kaç hücrelik sütundan oluşacağını tanımlanır.
+	-rows -> textarea etiketi içerisinde kullanılır. Kaç hücrelik satırdan oluşacağını tanımlar.
+	-placeholder -> input türü text olan veya textarea gibi yerlerde kullanılır. Kullanıldığı alan içerisinde
+		geçici bir mesaj oluşur, herhangi bir şey yazıldığı durumda placeholder etkisiz duruma gelir.
+	-reset -> Form alanları içerisine girilen bilgilerin temizleyen buton/input formatıdır.
+	-submit -> Form alanları içerisine girilen bilgileri form'un action kısmında belirtilen dosyaya gönderen
+		button/input formatıdır.
+44. Video - Semantic Elementler
+	-header -> ana başlık alanı anlamına gelir ve içerisinde "nav"(navigation bar) bulundurur
+		Bir sayfa içerisinde 1 adet header bulunur.
+	-nav (navigation bar) -> adından da anlaşılacağı üzere navigasyon barıdır. Genellikle aynı alan adına sahip
+		site içerisinde kullanıcı belirtilen kısma yönlendiren alandır. 1 sayfa içerisinde birden çok nav
+		bulunabilir, bunların ayrımını yapabilmek için id özelliği kullanılmalı ve ortaya çıkabilecek anlam
+		karmaşası engellenebilir.
+	-section -> Genel olarak belirli bir alan "section" içerisine alınabilir buna konu diyebiliriz.
+		Farklı konular farklı section içerisinde toplanabilir. Section içerisinde topladığımız
+		konular arasında ayrım yapabilmek için de "article" etiketi kullanırız.
+	-article -> Section içerisinde belirli konu hakkında farklı bölümler bulunabilir. Bu bölümleri ayırmak için
+		"article" etiketini kullanırız.
+	-aside -> sayfanın kenar alanlarını ifade eder. Örneğin sayfa kenarımıza bir "nav" eklemek istediğimizde
+		bunu "aside" etiketi içerisinde yazarız ve bu şekilde gruplamış oluruz.
+	-footer -> sayfanın en alt kısmında bulunur. contact, copyright, service gibi işlevleri bulunurken bazı
+		sitelerde bunlara ek olarak başka alanlara yönlendirebilecek nav bulunabilir
+	
