@@ -1,0 +1,20 @@
+29. Video - Meta Etiketleri ve Yorum Satırları
+	-Türkçe karakter içerecek bir site oluşturacağımızda charset="UTF-8" diyerek oluşturmalıyız
+	- <!-- --> Yorum satırı ifadesi
+33. Video - HTML5 - Linkler
+	-target="_blank" -> yeni sekmede açıyor sayfayı
+	-title="exp" -> Başlığı belirliyor linke yerleştirilirse mouse ile üzerine gelindikten 
+		bir süre sonra başlığın ne olduğu gözüküyor.
+35. Video - HTML5 - Tables
+	- tr -> table row
+	- th -> table head
+	- td -> table data
+37. Video - HTML5 - Video Etiketi
+	- video etiketinin orta kısmına eski tarayıcılarda çalışmazsa diye bir yazı yazıyoruz
+		görsellerdeki "alt" ifadesinde yazdığımız gibi ama burada video etiketinin ortasına
+	- controls -> img şeklinde çıkan video'yu video formatında gösteriyor
+	- autoplay -> otomatik oynatma işlevi gerçekleştiriyor (Sayfa yüklendiği anda video oynamaya başlıyor)
+38. Video - HTML5 - Audio Etiketi
+	- audio etiketinde de video da olduğu gibi desteklemeyecen tarayıcılar için ortada belirtilme gerçekleştiriliyor
+	- controls -> video etiketindeki gibi..
+	- autoplay -> video etiketindeki gibi..
