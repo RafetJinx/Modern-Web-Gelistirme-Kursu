@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS -Displays</title>
+    <style>
+        /*.box{
+            width: 50%;
+            height: 100px;
+        }
+        .box-1{
+            background: red;
+        }
+        .box-2{
+            background: blue;
+        }*/
+
+        /*Standart durumlarda inline elementlere width ve height gibi özellikler veremeyiz*/
+        #test-link{
+            /*inline-block verdiğimiz elementlere o alan içerisinde tıklayabiliriz. Bunu linklerde kullanırız genellikle
+            bu da kullanıcının yazı dışında bir alana tıklasa dahi o alan blok alanı içerisinde olduğu sürece istediği linke yönlendirilebilir olur*/
+            display: inline-block;
+            background-color: yellowgreen;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" id="test-link">Test Link</a>
+    Deneme content
+    <!--<div class="box box-1"></div>
+    <div class="box box-2"></div>-->
+</body>
+</html>
