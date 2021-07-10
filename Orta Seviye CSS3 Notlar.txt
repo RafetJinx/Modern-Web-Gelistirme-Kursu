@@ -1,0 +1,28 @@
+53. Video - CSS - Width, Height ve Max-Width
+	- max-width -> maksimum genişliği belirler. Sayfanın genişliği daha küçük bir pixele düşürüldüğü
+		zaman kendi genişliği de küçülür ve alt tarafta kaydırma çubuğu(scroll bar) çıkmaz.
+
+56. Video - Margin Özellikleri
+	- box model -> Kutu modeli anlamına gelir. Dıştan içeriye doğru margin-border-padding-content
+	- Content -> İçeriğimizdir.
+	- Padding -> İçeriğimiz ile sınırımız arasındaki alana denir.
+	- Border -> İçeriğimizin sınırı anlamına gelir.
+	- Margin -> Border'ımızın dışında kalan alana denir. Marginde yapılan değişiklikler çevre
+		elemanları ile arasındaki mesafeyi belirler.
+
+57. Video - CSS - Padding ve Box Sizing Özelliği
+	- stil içerisinde verilen width, height özellikleri sadece content alanının yükseklik ve genişlik
+		bilgileridir.
+	- margin & padding yazım şekilleri:
+		- margin/padding: top right bottom left;
+		- margin/padding: top-bottom, right-left;
+		- margin/padding: x; -> top right bottom left alanlarından x değeri kadar alan bırakır.
+	- box-sizing: border-box -> Etiketin tüm alanının nasıl biçimlendirileceğini ifade eder.
+		box-sizing: border-box; şeçilmiş ise margin + border + padding + content = width / hight
+			anlamına gelir. 
+
+58. Video - CSS - Text Özellikleri
+	- text-align -> Metin'in nereden hizalanacağını belirler.
+	- letter-spacing -> Metin içerisindeki harflerin arasındaki boşluğun ne kadar olacağını belirler.
+	- text-decoration -> metinin nasıl bir ifade ile çizileceğini belirler.
+	- text-transform -> metindeki harflerin küçük/büyük olacağını belirler.
