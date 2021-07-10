@@ -1,0 +1,65 @@
+59. Video - CSS - Ölçü Birimleri, Font-Family ve Fontlar
+	- font-family -> font ailesi anlamına gelir 
+		kullanımı: font-family: "Open Sans Condensed", sans-serif;
+		3 adet font türü bulunmasının sebebi eğer kullanılan sistemde belirtilen
+		font türü yoksa diğer font türünün kullanılmasıdır
+		Google fonts'u kullanarak internet üzerinden bir font türüne erişebliriz.
+	- font-size -> font'un boyutu anlamına gelir.
+	- lint-height -> satır yüksekliği anlamına gelir. Bununla birlikte satırlar
+		arasındaki mesafeyi ayarlayabiliriz.
+	- font-weight -> font'un kalınlık bilgisinin değiştirilmesini sağlar. Bold, lighter..
+	- font-style -> font'un yazım şeklini değiştirmemizi sağlar. İtalic, oblique, normal..
+
+60. Video - CSS - Icons
+	- i -> i etiketi ikon anlamına gelmektedir.
+	- fontawesome.com -> sitesinden ikonlar bulabilirsin.
+		Link: https://fontawesome.com/v5.15/icons?d=gallery&p=2
+	- cdnjs.com -> Birçok js/css dosyası hakkında araştırma yapabiliriz.
+		Link: https://cdnjs.com/libraries/font-awesome
+
+61. Video - CSS - Pseudo Class
+	- Kullanımı -> selector:pseudo_class{ }
+	- selector:link -> daha önceden ziyaret edilmediyse belirtilen özelliklere sahip olur.
+	- selector:visited -> daha önceden ziyarey edildiyse belirtilen özelliklere sahip olur.
+	- selector:active -> ifadeye tıklandığı anda belirtilen özelliklere sahip olur.
+	- selector:focus : input:focus -> input alanına tıklandığında belirtilen özelliklere sahip olur.
+	- selector:hover -> mouse ile ifadenin üstüne gelindiğinde belirtilen özelliklere sahip olur.
+
+63. Video - CSS - Nth Child Selector
+	- selector:first-child -> ilk elemanı belirttiğimiz özelliklere sahip olur.
+	- selector:nth-child(n) -> n'inci eleman belirttiğimiz özelliklere sahip olur.
+	- selector:nth-child(even) -> 2n'inci elemanlar belirttiğimiz özelliklere sahip olur(0-2-4..).
+	- selector:nth-child(odd) -> 2n+1'inci elemanlar belirttiğimiz özelliklere sahip olur(1-3-5..).
+	- selector::nth-chield(operation) -> operation'da yapılan işleme ve sonrasındaki gelen
+		elemanlara belirtilen özellikler uygulanır.
+
+64. Video - CSS - Table Styling
+	- border-collapse: collapse; -> her bir hücrenin kendine özel olan border'ını kaldırır bu sayede
+		daha anlaşılabilir bir görüntü oluşur.
+
+65. Video - CSS - Overflow
+	- overflow -> taşma durumuna denir. taşan alanın nasıl bir şekilde gözükeceğini belirleriz
+		overflow: hidden; -> taşan kısmı gizleriz.
+		overflow: visible; -> taşan kısım gözükür.
+		overflow: auto; -> taşan yere doğru bir scroll çıkar.
+		overflow: scroll; -> taşma durumu olsa da olmasa da scroll gözükür durumdadır.
+			taşma olmadığı durumda scroll kullanılamaz.
+			taşma olduğu durumda taşan kısımın kısmın scroll'u etkin hale gelir.
+
+66. Video - CSS - Position Özellikleri
+	- position: static; -> standart gelen static'tir.
+		position: relative; -> standart alan dışına taşıyabileceğimiz bir hale dönüştürdük
+		position: absolute; -> bir üstünü arar ve ondaki alana bağlı olarak hareket eder.
+			yani üstündeki etiketlerin herhangi birinde position varsa ona göre hizalanır.
+			eğer üstündeki etiketlerin hiçbirinde position bilgisi belirtilmemişse
+			body'nin sahip olduğu position bilgisine ulaşır(static) ve ona göre hizalanır.
+		position: fixed; -> başlangıçtan itibaren sayfaya sabitlenmiştir ve kullanıcı sayfa
+			içerisinde hareket ederken konumu değişmeden sürekli olarak ekranda gözükür.
+		position: sticky; -> kullanıcıya ekranda gözüktükten sonra kullanıcı sayfayı aşağı/yukarı
+			yönde gezdirmesi halinde ekrandan çıkacakken ekrandan çıkmayıp ekrana yapışarak
+			ekranda kalır.
+
+67. Video - CSS - Float
+	- float: right/left; -> diyerek etiketimizin pozisyonunda değişiklik yapabiliriz.
+		right -> etiketimizi sağa yaslar ve solunda kalan alanı boşaltır.
+		left -> etiketimizi sola yaslar ve sağında kalan alanı boşaltır.
