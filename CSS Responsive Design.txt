@@ -1,0 +1,9 @@
+71. Video - Responsive Tasarım ve Media Queries
+	- @media -> kullanarak responsive tasarım gerçekleştirebileceğimiz ifadeler kullanabiliyoruz.
+		tabletler için maksimum genişlik yaklaşık olarak: 768px.
+		telefonlar için maksimum genişlik yaklaşık olarak: 500px.
+
+72. Video - Responsive Tasarım - Em, Rem, Vw, Vh, % Birimleri
+	- vw -> viewport width.
+	- vh -> viewport height.
+	- em & rem oranları bir üst elemente göre değil kendi elementinin font-size'ına göre oranlanıyor.

@@ -1,0 +1,38 @@
+69. Video - CSS - Flexbox - Container Özellikleri
+	- flex-wrap: -> taşma durumunda container'ın nasıl bir özellik göstereceğini ifade eder.
+		default olarak: flex-wrap: nowrap;'tir.
+		flex-wrap: wrap; -> taşmaya izin verir ve doğru bir şekilde etiketlerimiz
+			taşmaya uğrar.
+		flex-wrap: wrap-reverse; -> taşmaya izin verir ve ters görünüm sağlar.
+	- flex-direction -> sıralama yönünü belirler(ekseni).
+		default olarak: flex-direction: row;'dur.
+		flex-direction: column; -> eksenin yönünü değiştirir(x->y & y->x).
+	- justify-content: -> container alanı içerisinde yer alan flex nesneleri main hizasında 
+		yönlendirmemizi sağlar(flex-direction: column; olursa align-items: gibi davranır).
+		justify-content: center; -> ana eksen hizasında bulunan elementleri ortalar.
+				 flex-start; -> ana eksen hizasında bulunan elementleri ana eksenin
+					başlangıç noktasından itibaren hizalar.
+				 flex-end; -> ana eksen hizasında bulunan elementleri ana eksenin
+					bitiş noktasından itibaren hizalar.
+				 space-around; -> ana eksen hizasında bulunan elementleri 
+					bosluk - element - 2xbosluk - element - bosluk şeklinde hizalar.
+				 space-between; -> ana eksen hizasında bulunan elementler ikiden fazla 
+					ise 1 tanesini flex-start'a, 1 tanesini flex-end'e yerleştirir
+					sonrasında gelen diğer elementleri aradaki boş alana ortalayarak
+					yerleştirir.
+				 space-evenly; -> ana eksen hizasında bulunan elementler boşluklu alanlar
+					aynı oranda olacak şekilde hizalar.
+	- align-items: -> container alanı içerisinde yer alan flex nesneleri cross hizasında
+		yönlendirmemizi sağlar(flex-direction: column; olursa justify-content: gibi davranır).
+		align-items: center; -> cross eksen hizasında bulunan elementleri ortalar.
+			     flex-start -> cross eksen hizasında bulunan elementleri cross eksenin başlangıç
+					noktasından itibaren hizalar.
+			     flex-end; -> cross eksen hizasında bulunan elementleri cross eksenin bitiş
+					noktasından itibaren hizalar.
+
+70. Video - Flexbox - Flex Item Özellikleri
+	- flex-grow: -> container alanı içerisinde yer alan flex nesnelerin genişlemesini sağlar.
+		flex-grow: n; -> n şeklinde verilen sayı katsayısı kadar alan kaplar. Örneğin 3 elementimiz
+			varsa ve onların flex-grow'ları sırasıyla 1-2-3 ise 1. element: 1/6, 2. element: 2/6
+			3. element 3/6'lık kadar alan kaplar. Eğer bir element hariç hiçbir elementte
+			flex-grow özelliği yoksa flex-grow özelliği olan element boşta kalan bütün alanı kaplar.
