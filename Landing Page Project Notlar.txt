@@ -1,0 +1,77 @@
+73. Video - Landing Page - Navbar + Responsive Navbar
+	- css dosyalarımız için klasör oluşturup onları global, main, tablet, mobile şeklinde ayırdık.
+	- index.html dosyamızın içerisindeki
+		head:
+		 - title: degistirildi -> "Landing Page Project".
+		 - meta: keywords eklendi -> "Landing Page Project | Responsive Navbar".
+		 - font google eklendi: -> "Open Sans".
+		 - font awesome eklendi: -> all.min.css.
+		 - css dosyalarımızın yolu eklendi.
+		body:
+		 - header oluşturuldu
+		  - div oluşturuldu
+		   - nav oluşturuldu
+		    - h1 eklendi.
+		    - ul liste türü eklendi.
+		     - liste elemanları eklendi.
+
+74. Video - Landing Page - Tanıtım Bölümünün Kodlanması
+	- css dosyaları düzenlendi:
+		- global.css:
+			-- text
+			  - .text-center
+			  - .heading-small
+			  - .heading-medium
+			  - .heading-big
+			-- colors
+			  - .bg-dark-blue
+			  - .bg-light-blue
+			-- buttons
+			  - .btn
+			  - .btn.primary
+			  - .btn-primary:hover
+			  - .btn-dark
+			  - .btn-dark:hover
+			  - .btn-block
+			-- container
+			  - .container
+		- main.css
+			-- all elements
+			  - *
+			-- html
+			-- a
+			-- navbar
+			  - #navbar
+			  - #navbar ul
+			  - #navbar ul li a
+			  - #navbar ul li a:hover
+			-- home section
+			  - #home
+			  - #home .re-profile-photo
+			  - #home .name h2
+			  - #home .name p
+		- mobile.css
+			-- navbar
+			  - #navbar
+
+75. Video - Landing Page - Eğitimler Bölümü
+	- css dosyaları düzenlendi:
+		- main.css
+			-- training section
+			  - #training
+			  - #training .items
+			  - #training .items .item
+			  - #training .items .item:hover
+		- mobile.css
+			-- training section
+			  - #training .items
+			  - #training .items .item
+	- index.html dosyası düzenlendi:
+		body:
+		 - section: training oluşturuldu
+		  - h3 oluşturuldu
+		  - div oluşturuldu * 3
+		   - article oluşturuldu
+		    - i oluşturuldu
+		    - h3 oluşturuldu
+		    - p oluşturuldu
